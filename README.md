@@ -40,8 +40,8 @@ This is a template repository to set up a project using React, React Query, Zust
 ### Clone the repository
 
 ```
-git clone https://github.com/vintagegnome/react-query-zustand-ts-vite-boilerplate.git
-cd react-query-zustand-ts-vite-boilerplate
+git https://github.com/vipulwairagade/react-ts-vite-boilerplate.git
+cd react-ts-vite-boilerplate
 ```
 
 ### Installing Dependencies
@@ -72,9 +72,8 @@ npm run dev
 | `format`      | Format `.ts`, `.tsx`, and `.json` files using Prettier                       |
 | `test`        | Run Jest tests                                                               |
 | `release`     | Run `standard-version` for versioning                                        |
-| `commit`      | Use `git-cz` for commits                                                     |
+| `commit`      | Use `cz` for commits                                                     |
 | `prepare`     | Set up Husky for git hooks in a production environment                       |
-
 
 ## Project Structure
 
@@ -93,7 +92,6 @@ Here's a basic overview of the significant folders in the boilerplate:
   └── types
 ```
 
-
 | Folder      | Description                                                                                          |
 |-------------|------------------------------------------------------------------------------------------------------|
 | **`src/`**   | Contains the main source code for the application.                                                   |
@@ -106,9 +104,6 @@ Here's a basic overview of the significant folders in the boilerplate:
 | `store`     | Zustand st ores for state management, holding |
 | **`public/`**   | Contains static assets like images, fonts, and the entry HTML file. Assets in this directory are served directly and are not processed by bundlers like Vite. |
 
-
-
-
 ## Features
 
 | Tool/Library | Description                                                    |
@@ -117,11 +112,6 @@ Here's a basic overview of the significant folders in the boilerplate:
 | Zustand      | For simple and scalable state management.                      |
 | TypeScript   | For type-safe code and scalability.                            |
 | Vite         | For faster builds and a smoother developer experience.         |
-
-
-## Contribution
-
-If you'd like to contribute to this boilerplate, feel free to fork and send a PR. All contributions are welcome!
 
 ## License
 
