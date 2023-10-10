@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+dev-dist
+build
+*.local
+.env
+src/styles.css
