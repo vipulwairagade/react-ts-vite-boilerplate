@@ -55,7 +55,7 @@ npm install
 To run the project locally, simply execute:
 
 ```
-npm run dev
+npm start
 ```
 
 ## Scripts
